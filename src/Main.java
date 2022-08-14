@@ -10,8 +10,7 @@ public class Main {
                     user.withDraw((int) e.getRemainingAmount());
                 } catch (LimitException e1) {
                     e1.printStackTrace();
-                }
-                break;
+                }break;
             }
         }
     }
